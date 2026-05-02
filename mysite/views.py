@@ -1,3 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.http import HttpResponse
+#from os import name
+#import json
+#import requests
 
-# Create your views here.
+
+
+
+def index(request):
+    
+    return HttpResponse("meu novo site")
+
+
